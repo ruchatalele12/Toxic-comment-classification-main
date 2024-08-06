@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Output page</title>
+    <style media="screen">
+        body {
+      background-image:url("{{url_for('static', filename='images/web.webp')}}");
+      background-size:1600px 790px;
+    }
+      </style>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <center>
+        
+            
+            <u><h1 id="output-message">Prediction</h1></u><br>
+        <div class="output-container">
+            <h1 class="output-text">The entered comment is : </h1><h2 class="output-text">({{Comment}})</h2><br>
+            <h1 class="output-text">Percentage of Toxicity</h1><h2 class="output-text">{{Results *100}}% </h2><br>
+            <h1 class="output-text1">Hence the comment is</h1>
+            <h1>{%if Results>=0.5 %} <img src="{{url_for('static', filename='images/Toxic.png')}}" width="200" height="200" class="image-result">
+                {%else%} <img src="{{url_for('static', filename='images/Not.jpg')}}" width="200" height="200" class="image-result">{%endif%}</h1>
+        </div>    
+        <div class="ok-but">
+            <form action="/" method="GET">
+                 <input type="submit" id="ok" name="ok" value="Return">  
+            </form>    
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,237 @@
+
+div{
+  color:#6fd649;
+}
+.container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.btn {
+  border: 1px solid black;
+  background: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 3px;
+  transition: 0.8s;
+}
+
+.btn1 {
+  color: black;
+  position: relative;
+  top:130px;
+  right:130px;
+}
+
+.btn2 {
+  color: black;
+  position: relative;
+  top: 80px;
+  right:50px;
+}
+
+.btn1:hover, .btn2:hover {
+  color: #fff;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 40%;
+}
+div{
+  color:#6fd649;
+}
+section{
+  color:white;
+}
+h1 {
+  color: black;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+.popup {
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 10px;
+  color: #333;
+}
+
+.popup img {
+  width: 60px;
+  margin-top: -70px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px 0px 350px;
+  border-bottom: 300px;
+  padding: 10px 10px;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h1 {
+  color: black;
+}
+
+.popup p {
+  font-size: 20px;
+}
+
+.input-conatainer {
+  background-color: white;
+  height: 350px;
+  width: 550px;
+  padding-top: 1px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#input {
+  font-size: 30px;
+  color: #6fd649;
+}
+
+.output-container {
+  background-image: linear-gradient(to top center bottom ,white,black,white);
+  height: 530px;
+  width: 30%;
+  padding-top: 1px;
+  padding-left: 3%;
+  border-radius: 20%;
+  border-color: green;
+}
+
+#output {
+  font-size: 20px;
+  color: black;
+}
+.output-text{
+  text-align: left;
+  font-size: x-large;
+  color: white;
+}
+.output-text1{
+  position: relative;
+  top: 30px;
+  right: 5px;
+  text-align: center;
+  font-size: x-large;
+  color: white;
+}
+#output-message{
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  position:relative;
+  top:30px;
+}
+.Comment-box{
+  width: 500px;;
+  height: 260px;
+  background-color: white;
+  border: black;
+  border-radius: 5%;
+  border-width: 10px;
+  position: relative;
+  top:180px;
+  align-items: center;
+}
+#input-box{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: x-large;
+  color:black;
+  text-decoration-color: beige;
+}
+#input-pred{
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: x-large;
+  color:black;
+  text-decoration-color: beige;
+}
+#head-text{
+position: relative;
+top:120px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+#by{
+color:white;
+position: relative;
+top:100px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#nlp{
+color: white;
+position: relative;
+top:90px;
+font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;
+}
+#image-nlp{
+  position:relative;
+  left: 1050px;
+}
+.image-result{
+  position:relative;
+  top:50px;
+  align-items: center;
+  right:20px;
+
+}
+.ok-but{
+  width: 0px;
+  height: 100px;
+}
+#ok{
+  border: 1px solid black;
+  background: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 3px;
+  transition: 0.8s;
+  position: relative;
+  right: 30px;
+}

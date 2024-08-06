@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>TOXIC COMMENT CLASSIFIER</title>
+  <link rel="javascript" href="{{url_for('static', filename='index.js')}}">
+  <script type="text/javascript">
+    function checkforblank() {
+      if (document.getElementById('message').value == "") {
+        alert('Please Enter a Comment!');
+        return false;
+
+      }
+    }
+  </script>
+  <style media="screen">
+    body {
+  background-image:url("{{url_for('static', filename='images/web.webp')}}");
+  background-size:1600px 790px;
+}
+  </style>
+  <style media="screen">
+    textarea {
+      position: relative;
+      top: 50px;
+      left: 50px;
+      width: 70%;
+      height: 50px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: 4px;
+      background-color:white;
+      color: black;
+      font-size: 16px;
+      resize: none;
+    }
+  </style>
+    <title>Home page</title>
+    <style media="screen">
+      </style>
+    
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+      
+    <Center>
+      <h1 id="head-text">Toxic comment classification </h1>
+      <h1 id="by">By</h1>
+      <hi id="nlp">(Natural language Processing)</hi>
+        <div class="Comment-box">
+        
+          <form action="output" method="POST">
+            
+                <h2 id="input-box">Enter a Comment:</h2>
+                <textarea id="message" name="Message" rows="2" cols="70"></textarea>
+            
+                
+            <input type="submit" name="submit" class="btn btn1" value="Predict">
+            <button id="btn" class="btn btn2">Clear</button>
+          <script src="index.js"></script>
+          </form>
+        </div>
+    </Center>
+</body>
+</html>
+
+
+
+
+  
